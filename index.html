@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Room homepage</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .front-end {
+      width: 100%;
+      height: 32px;
+      background-color: black;
+      position: relative;
+    }
+  
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .attribution a,
+    .attribution span {
+      color: hsl(227, 45%, 77%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-img">
+        <nav class="navigation">
+          <div class="logo">
+            <img src="images/logo.svg" alt="">
+          </div>
+          <ul class="navigation-list">
+            <li><a href="#">home</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+          <div class="navigation-hamb">
+            <img src="images/icon-hamburger.svg" alt="">
+            <img src="images/icon-close.svg" alt="">
+          </div>
+        </nav>
+        
+        <div class="img-1 img show"></div>
+        <div class="img-2 img"></div>
+        <div class="img-3 img"></div>
+      </div>
+      <div class="header-text">
+        <div class="header-buttons">
+          <button class="btn btn-left">
+            <img src="images/icon-angle-left.svg" alt="">
+          </button>
+          <button class="btn btn-right">
+            <img src="images/icon-angle-right.svg" alt="">
+          </button>
+        </div>
+
+        <!-- Item 1 -->
+        <div class="item show">
+          <h1>Discover innovative ways to decorate</h1>
+          <p>
+            We provide unmatched quality, comfort, and style for property owners across the country.
+            Our experts combine form and function in bringing your vision to life. Create a room in your
+            own style with our collection and make your property a reflection of you and what you love.
+          </p>
+          <button class="shop-now">
+            <span>Shop now</span>
+            <img src="images/icon-arrow.svg" alt="">
+          </button>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="item">
+          <h1>We are available all across the globe</h1>
+          <p>
+            With stores all over the world, it's easy for you to find furniture for your home or place of business.
+            Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+            store locator. Any questions? Don't hesitate to contact us today.
+          </p>
+          <button class="shop-now">
+            <span>Shop now</span>
+            <img src="images/icon-arrow.svg" alt="">
+          </button>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item">
+          <h1>Manufactured with the best materials</h1>
+          <p>
+            Our modern furniture store provide a high level of quality. Our company has invested in advanced technology
+            to ensure that every product is made as perfect and as consistent as possible. With three decades of
+            experience in this industry, we understand what customers want for their home and office.
+          </p>
+          <button class="shop-now">
+            <span>Shop now</span>
+            <img src="images/icon-arrow.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </header>
+    
+    <footer class="footer">
+      <div class="footer-item">
+        <img src="images/image-about-dark.jpg" alt="">
+      </div>
+      <div class="footer-item footer-text">
+        <div class="item">
+          <h3>About our furniture</h3>
+          <p>
+            Our multifunctional collection blends design and function to suit your individual taste.
+            Make each room unique, or pick a cohesive theme that best express your interests and what
+            inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+            or anything in between. Product specialists are available to help you create your dream space.
+          </p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <img src="images/image-about-light.jpg" alt="">
+      </div>
+    </footer>
+
+  </div>
+
+  <footer class="front-end">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <span>Javid Alizada</span>.
+    </p>
+  </footer>
+</body>
+<script src="app.js"></script>
+</html>
